@@ -1,5 +1,5 @@
 import { Card, Dropdown } from "flowbite-react";
-import pp from '../assets/image.JPG'
+import pp from '../assets/image.jpg'
 
 const Profile = () => {
   return (
