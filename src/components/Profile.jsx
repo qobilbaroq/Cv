@@ -1,36 +1,47 @@
-import { Card, Dropdown } from "flowbite-react";
-import pp from '../assets/image.jpg'
+import pp from '../assets/image.jpg';
+import Button from './elements/button'
+
+
 
 const Profile = () => {
+
+
+
   return (
-    <Card className="max-w-full m-3">
-      <div className="flex justify-between px-4 pt-4 flex-wrap">
+    <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap ">
+      <div className="flex flex-col items-center text-center">
+        <h5 className="mb-3 text-2xl md:text-3xl font-medium text-gray-800 dark:text-white">
+          HI! I am
+        </h5>
+        <h5 className="mb-3 text-4xl md:text-5xl font-medium text-gray-900 dark:text-white">
+          Moch Nabil Al Mubaroq
+        </h5>
+        <span className="text-lg md:text-xl  text-gray-500 dark:text-gray-400 max-w-md">
+          I am a junior front-end developer and a student with limited experience in coding. 
+          I want to deepen my knowledge and work as a front-end developer.
+        </span>
 
-      <div className="flex flex-col items-center pb-10">
-        <img
-          alt="image"
-          height="96"
-          src={pp}
-          width="96"
-          className="mb-3 rounded-full shadow-lg font"
-        />
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Moch Nabil Al Mubaroql</h5>
-        <span className="text-sm text-gray-500 dark:text-gray-400">sofwear enign</span>
-        <div className="mt-4 flex space-x-3 lg:mt-6">
-        </div>
-      </div>
-
-        <div inline className="column">
-          <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white"> Moch Nabil Al Mubaroq</h5>
-          <h2>Phone +62 8517-3224-546</h2>
-          <h5>Email nabilmughamad89@gmail.com </h5>
-          <h5>Github: https://github.com/qobilbaroq</h5>
-        </div>
+      <div className='flex gap-10'>
+        <Button classname="bg-slate-700 text-slate-50 hover:bg-slate-50 hover:text-slate-700">Download Cv</Button>
+        <a href='#about'>
+        <Button>Contant me</Button>
+        </a>
 
       </div>
-      
-    </Card>
-  )
-}
 
-export default Profile
+      </div>
+
+      <img
+        alt="image"
+        src={pp}
+        className="w-40 h-40 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-3xl shadow-lg"
+      />
+
+     
+
+    </div>
+  );
+};
+
+export default Profile;
+
