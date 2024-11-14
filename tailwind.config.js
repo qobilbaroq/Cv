@@ -8,7 +8,11 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '100': '700px',
+      }
+    },
   },
   plugins: [
     flowbite.plugin(),
