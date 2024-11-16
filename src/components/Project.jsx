@@ -6,7 +6,7 @@ import Button from './elements/button'
 const Project = () => {
   return (
     <div
-      className="flex justify-evenly flex-col gap-16 py-28 h-screen"
+      className="flex justify-evenly flex-col gap-16 py-28 md:h-screen"
       id="project"
     >
       <div className="flex flex-col items-center">

@@ -3,7 +3,7 @@ import Button from "./elements/button";
 
 const Profile = () => {
   return (
-    <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap m-5 ">
+    <div className="flex items-center flex-col-reverse md:flex-row justify-evenly h-screen gap-8 flex-wrap m-5 ">
       <div className="flex flex-col ">
         <h5 className="mb-3 text-2xl md:text-3xl font-medium text-gray-800 dark:text-white">
           HI! I am
@@ -33,7 +33,7 @@ const Profile = () => {
       <img
         alt="image"
         src={pp}
-        className="hidden lg:block w-40 h-40 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-3xl shadow-lg"
+        className="w-40 h-40 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-3xl shadow-lg"
       />
     </div>
   );
