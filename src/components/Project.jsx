@@ -1,6 +1,6 @@
 import React from "react";
 import pp from '../assets/poto.jpeg'
-import Button from './elements/Button'
+import Button from './elements/button'
 
 
 const Project = () => {
