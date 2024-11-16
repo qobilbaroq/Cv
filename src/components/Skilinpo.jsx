@@ -6,8 +6,8 @@ const Skilinpo = () => {
     <div className="flex flex-col md:h-screen p-16" id="skill">
       <div className=" flex flex-col ">
         <div className="flex flex-col items-center gap-3">
-          <h5 className="text-3xl font-bold">Skills and Expertise </h5>
-          <p className="md:text-lg text-center">
+          <h5 className="text-5xl font-bold">Skills and Expertise </h5>
+          <p className="md:text-lg text-center ">
             Explore some skills I'm proficient in to deliver high-quality
             solutions.
           </p>

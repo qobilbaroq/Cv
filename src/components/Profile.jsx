@@ -24,7 +24,7 @@ const Profile = () => {
           >
             Download Cv
           </Button>
-          <a href="#">
+          <a href="#Contact">
             <Button my="my-8">Contant me</Button>
           </a>
         </div>
