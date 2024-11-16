@@ -15,7 +15,7 @@ const Navside = () => {
         <a href="# " className="text-2xl text-slate-100 my-5"><AiFillHome /></a>
         <a href="#about_me " className="text-2xl text-slate-100 my-5"><FaUser /></a>
         <a href="#skill " className="text-2xl text-slate-100 my-5"><FaFolderOpen /></a>
-        <a href="# " className="text-2xl text-slate-100 my-5"><FaEnvelope /></a>
+        <a href="#Contact " className="text-2xl text-slate-100 my-5"><FaEnvelope /></a>
       </div>
 
       {/* Navbar bawah untuk layar kecil */}
@@ -23,7 +23,7 @@ const Navside = () => {
         <a href="# " className="text-2xl text-slate-100"><AiFillHome /></a>
         <a href="#about_me " className="text-2xl text-slate-100"><FaUser /></a>
         <a href="#skill " className="text-2xl text-slate-100"><FaFolderOpen /></a>
-        <a href="# " className="text-2xl text-slate-100"><FaEnvelope /></a>
+        <a href="#Contact " className="text-2xl text-slate-100"><FaEnvelope /></a>
       </div>
     </>
   );

@@ -6,6 +6,9 @@ import Navside from "./components/Navside";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Skilinpo from "./components/Skilinpo";
+import Experience from "./components/Experience";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +28,9 @@ function App() {
           <Profile />
           <About />
           <Skilinpo/>
+          {/* <Experience/> */}
+          <Project/>
+          <Contact/>
         </div>
       </div>
     </>

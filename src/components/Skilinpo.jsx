@@ -3,7 +3,7 @@ import { FaCodepen } from "react-icons/fa";
 
 const Skilinpo = () => {
   return (
-    <div className="flex flex-col h-screen  p-16" id="skill">
+    <div className="flex flex-col md:h-screen p-16" id="skill">
       <div className=" flex flex-col ">
         <div className="flex flex-col items-center gap-3">
           <h5 className="text-3xl font-bold">Skills and Expertise </h5>

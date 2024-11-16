@@ -20,11 +20,11 @@ const Profile = () => {
         <div className="flex gap-10">
           <Button
             my="my-8"
-            classname="bg-slate-700 text-slate-50 hover:bg-slate-50 hover:text-slate-700"
+            classname="bg-slate-700 text-slate-50 hover:bg-slate-50 hover:text-slate-700 py-2 px-6"
           >
             Download Cv
           </Button>
-          <a href="#about_me">
+          <a href="#">
             <Button my="my-8">Contant me</Button>
           </a>
         </div>

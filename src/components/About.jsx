@@ -5,7 +5,7 @@ import pp1 from "../assets/image1.jpg";
 const About = () => {
   return (
     <div
-      className="flex flex-col gap-8 px-5 md:px-10 lg:px-44 h-screen"
+      className="flex flex-col gap-8 px-5 md:px-10 lg:px-44 md:h-screen"
       id="about_me"
     >
       <div className="mt-16 md:mt-24 ">
@@ -23,7 +23,7 @@ const About = () => {
         />
 
         <div className="text-lg text-slate-900 px-3 lg:px-12 py-4">
-          <p className="text-justify text-gray-700 leading-7 md:text-xl">
+          <p className="text-justify text-gray-700 md:leading-7 md:text-xl">
             Hey there, I’m <strong>Moch Nabil Al Mubaroq</strong>, a{" "}
             <strong>tech enthusiast</strong> and{" "}
             <strong>aspiring Web Developer</strong>. Hailing from Bandung, West
