@@ -11,7 +11,7 @@ const Navside = () => {
   return (
     <>
       {/* nav side */}
-      <div className="hidden lg:flex flex-col justify-center h-96 w-14 mt-52 p-4 bg-slate-700 rounded-r-3xl fixed">
+      <div className="hidden lg:flex flex-col justify-center h-96 w-14 mt-52 p-4 bg-slate-700 rounded-r-3xl fixed" data-aos="zoom-out-right">
         <a href="# " className="text-2xl text-slate-100 my-5"><AiFillHome /></a>
         <a href="#about_me " className="text-2xl text-slate-100 my-5"><FaUser /></a>
         <a href="#skill " className="text-2xl text-slate-100 my-5"><FaFolderOpen /></a>
