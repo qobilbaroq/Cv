@@ -5,20 +5,28 @@ const Skilinpo = () => {
   return (
     <div className="flex flex-col md:h-screen p-16" id="skill">
       <div className=" flex flex-col ">
-        <div className="flex flex-col items-center gap-3" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
-          <h5 className="text-3xl md:text-5xl font-bold">Skills and Expertise </h5>
+        <div
+          className="flex flex-col items-center gap-3"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
+          <h5 className="text-3xl md:text-5xl font-bold">
+            Skills and Expertise{" "}
+          </h5>
           <p className="md:text-lg text-center ">
             Explore some skills I'm proficient in to deliver high-quality
             solutions.
           </p>
         </div>
-        <div className="my-12 flex justify-center gap-20" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
+        <div
+          className="my-12 flex justify-center gap-20"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <div className="flex flex-col items-center gap-4">
             <FaCodepen className="text-6xl" />
             <div className="font-medium text-lg">Web Development</div>
@@ -28,9 +36,12 @@ const Skilinpo = () => {
       </div>
 
       <div className="flex justify-center items-center p-12 gap-20 flex-wrap">
-        <div className="flex flex-col justify-center items-center " data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="flex flex-col justify-center items-center "
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h5 className="text-2xl md:text-3xl font-normal text-gray-600">
             Language & Framework
           </h5>
@@ -44,16 +55,21 @@ const Skilinpo = () => {
             <span className="text-black font-bold m-2">Bootstrap</span>|
             <span className="text-black font-bold m-2">MySQL</span>|
             <span className="text-black font-bold m-2">PHP</span>|
-            <span className="text-black font-bold m-2">Laravel</span>
+            {/* <span className="text-black font-bold m-2">Laravel</span> */}
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center " data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
-          <h5 className="text-2xl md:text-3xl font-normal text-gray-600">Tools</h5>
+        <div
+          className="flex flex-col justify-center items-center "
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <h5 className="text-2xl md:text-3xl font-normal text-gray-600">
+            Tools
+          </h5>
           <p className="text-center p-10 text-[11px] md:text-lg tracking-widest">
-            <span className="text-black font-bold m-2">Visual Studio Code</span>|
-            <span className="text-black font-bold m-2">Git </span>|
+            <span className="text-black font-bold m-2">Visual Studio Code</span>
+            |<span className="text-black font-bold m-2">Git </span>|
             <span className="text-black font-bold m-2">Github </span>|
             <span className="text-black font-bold m-2">Figma </span>|
             <br />

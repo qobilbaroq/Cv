@@ -27,10 +27,10 @@ function App() {
         <div className="main">
           <Profile />
           <About />
-          <Skilinpo/>
+          <Skilinpo />
           {/* <Experience/> */}
-          <Project/>
-          <Contact/>
+          <Project />
+          <Contact />
         </div>
       </div>
     </>

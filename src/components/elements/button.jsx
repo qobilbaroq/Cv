@@ -10,7 +10,7 @@ const Button = (prompt) => {
     <div className={` ${my} `}>
       <button
         className={` ${classname}  border-2 border-slate-700 text-lg rounded-2xl shadow-md  hover:shadow-lg  transition-all duration-300 `}
-        >
+      >
         {children}
       </button>
     </div>

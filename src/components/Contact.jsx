@@ -1,50 +1,79 @@
-import React from 'react'
-import { 
+import React from "react";
+import {
   BiEnvelope,
   BiLogoGithub,
   BiLogoInstagram,
   BiLogoLinkedinSquare,
-  BiLogoDiscordAlt
+  BiLogoDiscordAlt,
 } from "react-icons/bi";
-import pp from '../assets/image2.jpg'
+import pp from "../assets/image2.jpg";
 
 const Contact = () => {
   return (
-    <div 
-      className='flex flex-col md:flex-row justify-center md:justify-evenly items-center h-screen py-10 md:py-0' 
-      id='Contact'
+    <div
+      className="flex flex-col md:flex-row justify-center md:justify-evenly items-center h-screen py-10 md:py-0"
+      id="Contact"
     >
-
-        <div className='flex flex-col items-center md:items-start text-center md:text-left'>
-          <div  data-aos="zoom-in-right">
-          <h5 className='mb-6 text-3xl md:text-[50px] lg:text-[70px] font-bold text-gray-900 dark:text-white'>
+      <div className="flex flex-col items-center md:items-start text-center md:text-left">
+        <div data-aos="zoom-in-right">
+          <h5 className="mb-6 text-3xl md:text-[50px] lg:text-[70px] font-bold text-gray-900 dark:text-white">
             Get In Touch
           </h5>
-          <p className='text-gray-500 text-base md:text-lg'>
-            Feel free to contact me if you have any questions or just want to say hi.
+          <p className="text-gray-500 text-base md:text-lg">
+            Feel free to contact me if you have any questions or just want to
+            say hi.
           </p>
-          <p className='text-gray-500 text-base md:text-lg mt-6'>
+          <p className="text-gray-500 text-base md:text-lg mt-6">
             nabilmuhamad89@gmail.com
           </p>
-
-          </div>
-          <div className='flex mt-5 gap-4'>
-            <a href='#Contact' className='text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50'  data-aos="zoom-in-up"><BiEnvelope /></a>
-            <a href='https://github.com/qobilbaroq' className='text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50'  data-aos="zoom-in-down"><BiLogoGithub /></a>
-            <a href='https://www.instagram.com/sibalroq?igsh=MWw4aGpvbjZyNjE3Zg==' className='text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50'  data-aos="zoom-in-up"><BiLogoInstagram /></a>
-            <a href='#Contact' className='text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50'  data-aos="zoom-in-down"><BiLogoLinkedinSquare /></a>
-            <a href='#Contact' className='text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50'  data-aos="zoom-in-up"><BiLogoDiscordAlt /></a>
-          </div>
         </div>
+        <div className="flex  mt-5 gap-4">
+          <a
+            href=""
+            className="text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50"
+            data-aos="zoom-in-up"
+          >
+            <BiEnvelope />
+          </a>
+          <a
+            href="https://github.com/qobilbaroq"
+            className="text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50"
+            data-aos="zoom-in-down"
+          >
+            <BiLogoGithub />
+          </a>
+          <a
+            href="https://www.instagram.com/sibalroq?igsh=MWw4aGpvbjZyNjE3Zg=="
+            className="text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50"
+            data-aos="zoom-in-up"
+          >
+            <BiLogoInstagram />
+          </a>
+          <a
+            href="#Contact"
+            className="text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50"
+            data-aos="zoom-in-down"
+          >
+            <BiLogoLinkedinSquare />
+          </a>
+          <a
+            href="#Contact"
+            className="text-2xl md:text-3xl bg-slate-700 text-slate-100 h-10 w-10 md:h-12 md:w-12 flex items-center justify-center rounded-full hover:opacity-50"
+            data-aos="zoom-in-up"
+          >
+            <BiLogoDiscordAlt />
+          </a>
+        </div>
+      </div>
 
-        <img
-          src={pp}
-          alt='profile'
-           data-aos="zoom-in-left"
-          className='order-first md:order-none h-[300px] w-[240px] md:h-[450px] md:w-[350px] lg:h-[550px] lg:w-[430px] bg-cover grayscale hover:grayscale-0 transition duration-300 rounded-lg mb-6 md:mb-0'
-        />
+      <img
+        src={pp}
+        alt="profile"
+        data-aos="zoom-in-left"
+        className="order-first md:order-none h-[300px] w-[240px] md:h-[450px] md:w-[350px] lg:h-[550px] lg:w-[430px] bg-cover grayscale hover:grayscale-0 transition duration-300 rounded-lg mb-6 md:mb-0"
+      />
     </div>
-  )
-}
+  );
+};
 
 export default Contact;

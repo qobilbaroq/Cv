@@ -8,10 +8,13 @@ const About = () => {
       className="flex flex-col gap-8 px-5 md:px-10 lg:px-44 md:h-screen"
       id="about_me"
     >
-      <div className="mt-16 md:mt-24 " data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
+      <div
+        className="mt-16 md:mt-24 "
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
         <h5 className="text-2xl  lg:text-5xl font-medium text-gray-900 dark:text-white">
           About Me
         </h5>
@@ -23,15 +26,18 @@ const About = () => {
           alt="Profile"
           className=" w-44 h-44 md:w-52 md:h-52 lg:w-80 lg:h-80 rounded-3xl shadow-xl"
           data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
           src={pp1}
         />
 
-        <div className=" text-slate-900 px-3 lg:px-12 py-4" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className=" text-slate-900 px-3 lg:px-12 py-4"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <p className="text-justify text-gray-700 md:leading-7 md:text-xl">
             Hey there, I’m <strong>Moch Nabil Al Mubaroq</strong>, a{" "}
             <strong>tech enthusiast</strong> and{" "}

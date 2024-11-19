@@ -19,7 +19,7 @@ const Navside = () => {
       </div>
 
       {/* nav bawah */}
-      <div className="lg:hidden flex justify-around items-center h-14 w-full bg-slate-700 fixed bottom-0">
+      <div className="z-10 lg:hidden flex justify-around items-center h-14 w-full bg-slate-700 fixed bottom-0">
         <a href="# " className="text-2xl text-slate-100"><AiFillHome /></a>
         <a href="#about_me " className="text-2xl text-slate-100"><FaUser /></a>
         <a href="#skill " className="text-2xl text-slate-100"><FaFolderOpen /></a>
